@@ -22,7 +22,8 @@
     "xtensa",
     "risc-v",
     "espidf",
-    "arduino"
+    "arduino",
+    "platformio"
   ],
   "main": "./dist/extension",
   "homepage": "https://github.com/pioarduino",
@@ -37,15 +38,7 @@
     "url": "https://github.com/pioarduino/pioarduino-vscode-ide.git"
   },
   "activationEvents": [
-    "workspaceContains:**/platformio.ini",
-    "onView:platformio-ide.quickAccess",
-    "onView:platformio-ide.projectTasks",
-    "onView:platformio-debug.peripherals",
-    "onView:platformio-debug.registers",
-    "onView:platformio-debug.memory",
-    "onView:platformio-debug.disassembly",
-    "onCommand:platformio-ide.showHome",
-    "onCommand:platformio-ide.openPIOCoreCLI"
+    "workspaceContains:platformio.ini"
   ],
   "contributes": {
     "languages": [
