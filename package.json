@@ -19,10 +19,12 @@
   "keywords": [
     "embedded",
     "microcontroller",
+    "espressif",
     "xtensa",
     "risc-v",
     "espidf",
     "arduino",
+    "pioarduino",
     "platformio"
   ],
   "main": "./dist/extension",
